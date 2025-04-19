@@ -10,15 +10,15 @@ def sanitize(name):
 
 # define the file paths and their corresponding languages and implementation types
 files = [
-    ("Project/Python/python1_results.csv", "python", "Naive"),
-    ("Project/Python/python2_results.csv", "python", "Optimized"),
-    ("Project/Python/python3_results.csv", "python", "Parallel"),
+    ("Project/python/python1_results.csv", "python", "Naive"),
+    ("Project/python/python2_results.csv", "python", "Optimized"),
+    ("Project/python/python3_results.csv", "python", "Parallel"),
     ("Project/Julia/julia1_results.csv", "julia", "Naive"),
     ("Project/Julia/julia2_results.csv", "julia", "Optimized"),
     ("Project/Julia/julia3_results.csv", "julia", "Parallel"),
-    ("Project/C++/cpp1_results.csv", "c/c++", "Naive"),
-    ("Project/C++/cpp2_results.csv", "c/c++", "Optimized"),
-    ("Project/C++/cpp3_results.csv", "c/c++", "Parallel"),
+    ("Project/c++/cpp1_results.csv", "c/c++", "Naive"),
+    ("Project/c++/cpp2_results.csv", "c/c++", "Optimized"),
+    ("Project/c++/cpp3_results.csv", "c/c++", "Parallel"),
     ("Project/Chapel/chapel1_results.csv", "chapel", "Naive"),
     ("Project/Chapel/chapel2_results.csv", "chapel", "Optimized"),
     ("Project/Chapel/chapel3_results.csv", "chapel", "Parallel"),
